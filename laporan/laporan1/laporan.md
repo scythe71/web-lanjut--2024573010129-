@@ -7,14 +7,14 @@
 ---
 
 ## Abstrak 
-Tuliskan ringkasan singkat tentang isi laporan ini dan tujuan Anda membuat laporan.
+Laporan ini menjelaskan tentang pengenalan pada laravel seperti apa itu laravel, karakteristik utamanya, komponen-komponennya
 
 ---
 
 ## 1. Pendahuluan
-- Tuliskan teori perkenalan tentang laravel
 **Apa itu Laravel?**
 Laravel adalah framework PHP yang populer, bersifat *open-source*, dan dirancang untuk membangun  aplikasi web modern yang skalabel dan aman.
+
 Laravel merupakan framework high-level yang bersifat opinionated (punya aturan dan konvensi tertentu). Nanti kita akan bahas lebih detail apa maksudnya. Laravel juga mengikuti arsitektur Model-View-Controller (MVC), yang akan kita pelajari lebih lanjut, dengan tujuan mempermudah sekaligus membuat proses pengembangan menjadi lebih efisien dan menyenangkan.
 Bagi yang belum familiar, framework web adalah kumpulan pustaka (library) dan alat (tools) yang membantu pengembang membangun aplikasi lebih cepat dengan menyediakan fitur-fitur umum seperti:
 
