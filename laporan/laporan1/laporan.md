@@ -7,26 +7,28 @@
 ---
 
 ## Abstrak 
-Laporan ini menjelaskan tentang pengenalan pada laravel seperti apa itu laravel, karakteristik utamanya, komponen-komponennya
+Laporan ini menjelaskan tentang pengenalan pada laravel seperti apa itu laravel, karakteristik utamanya, komponen-komponen utamanya, penjelasan folder dan filenya, cara kerja MVC, dan kekurangan beserta kelebihannya.
 
 ---
 
 ## 1. Pendahuluan
 **Apa itu Laravel?**
+
 Laravel adalah framework PHP yang populer, bersifat *open-source*, dan dirancang untuk membangun  aplikasi web modern yang skalabel dan aman.
 
 Laravel merupakan framework high-level yang bersifat opinionated (punya aturan dan konvensi tertentu). Nanti kita akan bahas lebih detail apa maksudnya. Laravel juga mengikuti arsitektur Model-View-Controller (MVC), yang akan kita pelajari lebih lanjut, dengan tujuan mempermudah sekaligus membuat proses pengembangan menjadi lebih efisien dan menyenangkan.
 Bagi yang belum familiar, framework web adalah kumpulan pustaka (library) dan alat (tools) yang membantu pengembang membangun aplikasi lebih cepat dengan menyediakan fitur-fitur umum seperti:
 
-Routing
-Manajemen basis data
-Autentikasi (authentication)
+- Routing
+- Manajemen basis data
+- Autentikasi (authentication)
+
 Laravel dibuat oleh Taylor Otwell pada tahun 2011 dan hingga kini menjadi salah satu framework PHP paling populer di dunia. Laravel dikenal karena:
 
-Sintaks yang ekspresif dan elegan
-Fitur yang lengkap dan kuat
-Komunitas yang aktif
-Laravel digunakan oleh pengembang di seluruh dunia untuk membangun berbagai jenis aplikasi, mulai dari blog sederhana hingga sistem perusahaan yang kompleks.
+- Sintaks yang ekspresif dan elegan
+- Fitur yang lengkap dan kuat
+- Komunitas yang aktif
+- Laravel digunakan oleh pengembang di seluruh dunia untuk membangun berbagai jenis aplikasi, mulai dari blog sederhana hingga sistem perusahaan yang kompleks.
 
 **Karakteristik utama**
 1. Framework High-level & Opinionated
@@ -48,7 +50,9 @@ Laravel digunakan oleh pengembang di seluruh dunia untuk membangun berbagai jeni
    Ada banyak paket tambahan, dokumentasi, dan komunitas aktif.
 
 **Untuk jenis aplikasi apa Laravel cocok?**  
-Laravel adalah framework backend yang menyediakan berbagai fitur lengkap untuk membangun aplikasi web modern, seperti routing, validasi, caching, antrian, penyimpanan file, dan lainnya. Laravel sangat cocok digunakan untuk berbagai jenis aplikasi, mulai dari website sederhana, blog, sistem manajemen konten (CMS), aplikasi e-commerce, hingga aplikasi perusahaan berskala besar. Selain itu, Laravel juga mendukung pengembangan full-stack dengan pendekatan yang memudahkan integrasi antara backend dan frontend.
+Laravel adalah framework backend yang menyediakan berbagai fitur lengkap untuk membangun aplikasi web modern, seperti routing, validasi, caching, antrian, penyimpanan file, dan lainnya. 
+
+Laravel sangat cocok digunakan untuk berbagai jenis aplikasi, mulai dari website sederhana, blog, sistem manajemen konten (CMS), aplikasi e-commerce, hingga aplikasi perusahaan berskala besar. Selain itu, Laravel juga mendukung pengembangan full-stack dengan pendekatan yang memudahkan integrasi antara backend dan frontend.
 
 
 ---
@@ -56,27 +60,36 @@ Laravel adalah framework backend yang menyediakan berbagai fitur lengkap untuk m
 ## 2. Komponen Utama Laravel (ringkas)
 1. Blade (templating)
    Blade adalah templating engine bawaan Laravel untuk merender view. Kita dapat mengirim data dari basis data atau sumber lain ke dalam view. Sekarang Blade juga memiliki sistem component, sehingga kita bisa membangun UI seperti menggunakan frontend framework (misalnya React).
+
 2. Eloquent (ORM)
    Eloquent adalah ORM bawaan Laravel untuk berinteraksi dengan basis data. Dengan Eloquent, kita tidak perlu menulis query SQL mentah. Sintaksnya sangat elegan untuk melakukan operasi seperti mengambil, membuat, memperbarui, dan menghapus data.
+
 3. Routing
    Sistem routing Laravel sangat dinamis dan mudah digunakan. Mendukung URL pattern, middleware, route grouping, serta resource route.
+
 4. Model
    Komponen Model bertanggung jawab untuk berinteraksi dengan basis data. Di Laravel, Eloquent ORM digunakan untuk mengelola operasi basis data. Model berisi logika bisnis dan aturan validasi data.
+
 5. View
    Komponen View bertanggung jawab untuk menampilkan data kepada pengguna. View menerima data dari Controller dan merendernya menjadi tampilan yang dapat dilihat oleh pengguna. Laravel menggunakan Blade sebagai mesin templating untuk membuat Views yang dinamis dan mudah dikelola.
+
 6. Controllers
    Komponen Controller bertindak sebagai perantara antara Model dan View. Controller menerima input dari pengguna, memprosesnya (dengan bantuan Model jika diperlukan), dan menentukan View yang sesuai untuk ditampilkan. Controller juga mengelola logika aplikasi yang tidak terkait langsung dengan Model atau View.
+
 7. Migrations & Seeders
    Laravel menyediakan sistem migrasi dan seeder yang kuat untuk mengelola skema basis data. Pengembang dapat dengan mudah membuat, mengubah, dan menghapus tabel serta mengisi tabel dengan data dummy untuk pengujian.
+
 8. Artisan CLI
    Command-line tool untuk mengelola aplikasi Laravel. Dengan Artisan, kita bisa menjalankan migrasi basis data, membuat controller dan model, menjalankan development server, dan banyak lagi.
+
 9. Testing (PHPUnit)  
    Laravel sudah mendukung pengujian aplikasi secara langsung. Secara default, Laravel menyediakan integrasi dengan PHPUnit dan Pest, serta sudah menyertakan file konfigurasi `phpunit.xml` di dalam project. Framework ini juga menyediakan berbagai helper method yang memudahkan penulisan dan pengujian fitur aplikasi secara ekspresif dan efisien.
 
 ---
 
-## 3. Berikan penjelasan untuk setiap folder dan files yang ada didalam struktur sebuah project laravel.
+## 3. Folder dan File di laravel
 **Folder**
+
 Berikut adalah folder-folder yang tersedia secara default:
 
 - App
@@ -107,6 +120,7 @@ Berikut adalah folder-folder yang tersedia secara default:
   Folder vendor adalah dimana tempat folder-folder dependencies third-party yang telah di-install oleh composer berada.
 
 **Files**
+
 Berikut adalah file-file yang tersedia secara default:
 
 - .editorconfig
@@ -143,7 +157,7 @@ Berikut adalah file-file yang tersedia secara default:
 
 ## 4. Diagram MVC dan Cara kerjanya
 
-> Letakkan gambar di dalam folder `laporan1/gambar/`. Kemudian masukkan gambar tersebut ke laporan. 
+
 
 lihat cara nya disini https://www.ulas.in/komputer/markdown-memasukkan-gambar/
 
@@ -171,6 +185,7 @@ https://laravel.com/docs/12.x/testing
 Mengenal Struktur Folder dan file pada laravel
 https://www.barajacoding.or.id/mengenal-struktur-folder-dan-file-pada-laravel/
 
+Markdown – Memasukkan Gambar
 https://www.ulas.in/komputer/markdown-memasukkan-gambar/
 
 ---
