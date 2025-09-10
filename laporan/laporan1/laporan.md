@@ -49,6 +49,7 @@ Laravel dibuat oleh Taylor Otwell pada tahun 2011 dan hingga kini menjadi salah 
    Ada banyak paket tambahan, dokumentasi, dan komunitas aktif.
 
 >Untuk jenis aplikasi apa Laravel cocok?
+
   Laravel adalah framework backend yang menyediakan berbagai fitur lengkap untuk membangun aplikasi web modern, seperti routing, validasi, caching, antrian, penyimpanan file, dan lainnya. 
 
   Laravel sangat cocok digunakan untuk berbagai jenis aplikasi, mulai dari website sederhana, blog, sistem manajemen konten (CMS), aplikasi e-commerce, hingga aplikasi perusahaan berskala besar. Selain itu, Laravel juga mendukung pengembangan full-stack dengan pendekatan yang memudahkan integrasi antara backend dan frontend.
@@ -87,8 +88,9 @@ Laravel dibuat oleh Taylor Otwell pada tahun 2011 dan hingga kini menjadi salah 
 ---
 
 ## 3. Folder dan File di laravel
-<Folder
-Berikut adalah folder-folder yang tersedia secara default:
+>Folder
+
+**Berikut adalah folder-folder yang tersedia secara default:**
 
   `App`
   Folder app berisi kode-kode inti dari aplikasi seperti Model, Controller, Commands, Listener, Events, dll. Poinnya, hampir semua class dari aplikasi berada di folder ini.
@@ -117,8 +119,9 @@ Berikut adalah folder-folder yang tersedia secara default:
   `Vendor`
   Folder vendor adalah dimana tempat folder-folder dependencies third-party yang telah di-install oleh composer berada.
 
-<Files
-Berikut adalah file-file yang tersedia secara default:
+>Files
+
+**Berikut adalah file-file yang tersedia secara default:**
 
   `.editorconfig`
   Berguna untuk memberi IDE/text editor instruksi tentang standar coding Laravel seperti whitespace, besar identasi, dll.
