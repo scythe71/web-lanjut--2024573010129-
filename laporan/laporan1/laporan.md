@@ -152,7 +152,7 @@ Berikut adalah file-file yang tersedia secara default:
 
 ## 4. Diagram MVC dan Cara kerjanya
 
-![MVC](gambar/gambar2.webp)
+![MVC](gambar/gambar2.png)
 
 >Cara Kerja MCV
 
