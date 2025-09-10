@@ -7,30 +7,28 @@
 ---
 
 ## Abstrak 
-Laporan ini menjelaskan tentang pengenalan pada laravel seperti apa itu laravel, karakteristik utamanya, komponen-komponen utamanya, penjelasan folder dan filenya, cara kerja MVC, dan kekurangan beserta kelebihannya.
+Laporan ini menjelaskan tentang pengenalan pada laravel sebuah framework php, karakteristik utamanya, komponen-komponen utamanya, penjelasan folder dan filenya, cara kerja MVC pada laravel, dan kekurangan beserta kelebihannya.
 
 ---
 
 ## 1. Pendahuluan
-**Apa itu Laravel?**
-
+>Apa itu Laravel?
 Laravel adalah framework PHP yang populer, bersifat *open-source*, dan dirancang untuk membangun  aplikasi web modern yang skalabel dan aman.
-
 Laravel merupakan framework high-level yang bersifat opinionated (punya aturan dan konvensi tertentu). Nanti kita akan bahas lebih detail apa maksudnya. Laravel juga mengikuti arsitektur Model-View-Controller (MVC), yang akan kita pelajari lebih lanjut, dengan tujuan mempermudah sekaligus membuat proses pengembangan menjadi lebih efisien dan menyenangkan.
-Bagi yang belum familiar, framework web adalah kumpulan pustaka (library) dan alat (tools) yang membantu pengembang membangun aplikasi lebih cepat dengan menyediakan fitur-fitur umum seperti:
+Bagi yang belum familiar, framework web adalah kumpulan pustaka (library) dan alat (tools) yang membantu pengembang membangun aplikasi lebih
 
+cepat dengan menyediakan fitur-fitur umum seperti:
 - Routing
 - Manajemen basis data
 - Autentikasi (authentication)
 
 Laravel dibuat oleh Taylor Otwell pada tahun 2011 dan hingga kini menjadi salah satu framework PHP paling populer di dunia. Laravel dikenal karena:
-
 - Sintaks yang ekspresif dan elegan
 - Fitur yang lengkap dan kuat
 - Komunitas yang aktif
 - Laravel digunakan oleh pengembang di seluruh dunia untuk membangun berbagai jenis aplikasi, mulai dari blog sederhana hingga sistem perusahaan yang kompleks.
 
-**Karakteristik utama**
+>Karakteristik utama
 1. Framework High-level & Opinionated
    Laravel punya aturan & konvensi tertentu (best practices bawaan), sehingga kode lebih konsisten dan kolaborasi tim lebih gampang.
 
@@ -49,7 +47,7 @@ Laravel dibuat oleh Taylor Otwell pada tahun 2011 dan hingga kini menjadi salah 
 6. Komunitas Besar & Dukungan Pustaka
    Ada banyak paket tambahan, dokumentasi, dan komunitas aktif.
 
-**Untuk jenis aplikasi apa Laravel cocok?**  
+>Untuk jenis aplikasi apa Laravel cocok?
 Laravel adalah framework backend yang menyediakan berbagai fitur lengkap untuk membangun aplikasi web modern, seperti routing, validasi, caching, antrian, penyimpanan file, dan lainnya. 
 
 Laravel sangat cocok digunakan untuk berbagai jenis aplikasi, mulai dari website sederhana, blog, sistem manajemen konten (CMS), aplikasi e-commerce, hingga aplikasi perusahaan berskala besar. Selain itu, Laravel juga mendukung pengembangan full-stack dengan pendekatan yang memudahkan integrasi antara backend dan frontend.
@@ -88,8 +86,7 @@ Laravel sangat cocok digunakan untuk berbagai jenis aplikasi, mulai dari website
 ---
 
 ## 3. Folder dan File di laravel
-**Folder**
-
+>Folder
 Berikut adalah folder-folder yang tersedia secara default:
 
 - App
@@ -119,8 +116,7 @@ Berikut adalah folder-folder yang tersedia secara default:
 - Vendor
   Folder vendor adalah dimana tempat folder-folder dependencies third-party yang telah di-install oleh composer berada.
 
-**Files**
-
+>Files
 Berikut adalah file-file yang tersedia secara default:
 
 - .editorconfig
@@ -157,35 +153,56 @@ Berikut adalah file-file yang tersedia secara default:
 
 ## 4. Diagram MVC dan Cara kerjanya
 
+![MVC](gambar/gambar2.webp)
 
+>Cara Kerja MCV
 
-lihat cara nya disini https://www.ulas.in/komputer/markdown-memasukkan-gambar/
+MVC memiliki cara kerja yang terpisah dan terstruktur, yaitu dengan memanfaatkan Model, View dan Controller. Masing-masing alur tersebut memiliki tugas yang telah kami bahas pada bagian apa itu MVC. Berikut kami berikan gambaran sederhana dari cara kerja MVC.
+
+Dimulai dari Model yang berfungsi menentukan alur logika dari program yang akan dibuat dan dikembangkan. Model memastikan program dapat bertukar data dengan database melalui aksi CRUD, kemudian menampilkan hasilnya dalam View. View berperan sebagai output yang menggambarkan detail atau hasil dari permintaan yang dibuat oleh pengguna.
+
+Controller memastikan bahwa permintaan pengguna yang ingin ditampilkan pada View dapat diteruskan ke Model. Selanjutnya, respon dari Model dikembalikan ke Controller dan diteruskan ke View sesuai dengan peran yang telah dirancang.
 
 ---
 
 ## 6. Kelebihan & Kekurangan (refleksi singkat)
-- Kelebihan Laravel menurut Anda
-- Hal yang mungkin menjadi tantangan bagi pemula
+>Kelebihan Laravel
+- Sangat mudah dipelajari untuk pemula.
+- Proses developing menjadi lebih praktis.
+- Laravel ini sudah digunakan di seluruh dunia, jadi memungkinkan bagi pemula untuk beradaptasi dengan lebih mudah dalam projects baru.
+- Tools yang ada cocok untuk advance dan developer pemula.
+- Forum dan dokumentasi yang banyak, sehingga kamu dapat berdiskusi jika terjadi kendala atau error.
+- Memiliki dasar template yang cukup ringan.
+- Kode yang dimiliki cukup rapi dibandingkan.
+- Memiliki banyak Fitur yang tersedia.
+
+>Kekurangan Laravel
+- Perlu sering melakukan pembaruan kedalam versi baru, dalam waktu yang cepat juga, jika dibandingkan framework lainnya.
+- Pada sedikit kasus, waktu eksekusi Laravel sedikit lebih lambat dibanding CI.
+- Memiliki ukuran kode yang termasuk berat untuk suatu framework.
 
 ---
 
 ## 7. Referensi
-Modul 1 - introduction 
-https://hackmd.io/@mohdrzu/By0Wc1Dule#Pustaka-Libraries-di-Laravel
+- Modul 1 - introduction 
+  https://hackmd.io/@mohdrzu/By0Wc1Dule#Pustaka-Libraries-di-Laravel
 
-Frontend - introduction
-https://laravel.com/docs/12.x/frontend
+- Frontend - introduction
+  https://laravel.com/docs/12.x/frontend
 
-Kenalan dengan Laravel: Framework PHP yang Keren dan Serbaguna
-https://www.dicoding.com/blog/kenalan-dengan-laravel-framework-php-yang-keren-dan-serbaguna/
+- Kenalan dengan Laravel: Framework PHP yang Keren dan Serbaguna
+  https://www.dicoding.com/blog/kenalan-dengan-laravel-framework-php-yang-keren-dan-serbaguna/
 
-Testing - Introduction
-https://laravel.com/docs/12.x/testing
+- Testing - Introduction
+  https://laravel.com/docs/12.x/testing
 
-Mengenal Struktur Folder dan file pada laravel
-https://www.barajacoding.or.id/mengenal-struktur-folder-dan-file-pada-laravel/
+- Mengenal Struktur Folder dan file pada laravel
+  https://www.barajacoding.or.id/mengenal-struktur-folder-dan-file-pada-laravel/
 
-Markdown – Memasukkan Gambar
-https://www.ulas.in/komputer/markdown-memasukkan-gambar/
+- Markdown – Memasukkan Gambar
+  https://www.ulas.in/komputer/markdown-memasukkan-gambar/
+
+- Apa Itu MVC: Konsep, Kelebihan, Cara Kerja dan Contohnya
+  https://www.rumahweb.com/journal/mvc-adalah/
 
 ---
