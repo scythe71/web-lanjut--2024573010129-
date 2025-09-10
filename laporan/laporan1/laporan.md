@@ -14,7 +14,7 @@ Laporan ini menjelaskan tentang pengenalan pada laravel sebuah framework php, ka
 ## 1. Pendahuluan
 >Apa itu Laravel?
 
-Laravel adalah framework PHP yang populer, bersifat *open-source*, dan dirancang untuk membangun  aplikasi web modern yang skalabel dan aman.
+Laravel adalah framework PHP yang populer, bersifat *open-source*, dan dirancang untuk membangun aplikasi web modern yang skalabel dan aman.
 Laravel merupakan framework high-level yang bersifat opinionated (punya aturan dan konvensi tertentu). Nanti kita akan bahas lebih detail apa maksudnya. Laravel juga mengikuti arsitektur Model-View-Controller (MVC), yang akan kita pelajari lebih lanjut, dengan tujuan mempermudah sekaligus membuat proses pengembangan menjadi lebih efisien dan menyenangkan.
 
 Bagi yang belum familiar, framework web adalah kumpulan pustaka (library) dan alat (tools) yang membantu pengembang membangun aplikasi lebih
