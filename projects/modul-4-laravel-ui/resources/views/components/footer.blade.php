@@ -1,6 +1,6 @@
 <!-- Penambahan agar tidak error Undefined -->
 @props([
-    'theme' => 'light',
+    'theme' => 'light'
 ])
 <footer class="mt-5 py-4 border-top {{ $theme === 'dark' ? 'border-secondary' : '' }}">
     <div class="container">
