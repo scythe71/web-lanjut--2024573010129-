@@ -136,7 +136,7 @@ Lalu di controller:
         $validated = $request->validated();
     }
 
-Mengembalikan Respons dari Controller
+### Mengembalikan Respons dari Controller
 
 Controller dapat mengembalikan berbagai jenis respons:
 
