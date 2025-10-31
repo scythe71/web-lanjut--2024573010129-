@@ -6,13 +6,15 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function admin() {
+    public function admin() 
+    {
         $role = 'admin';
         $username = 'Yamato Admin';
         return view('admin.dashboard', compact('role', 'username'));
     }
 
-    public function user() {
+    public function user() 
+    {
         $role = 'user';
         $username = 'Liu User';
         return view('user.dashboard', compact('role', 'username'));
