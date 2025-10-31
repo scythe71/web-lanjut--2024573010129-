@@ -81,6 +81,8 @@ Digunakan di view:
 
     <x-alert>Terjadi kesalahan!</x-alert>
 
+---
+
 ## 2. Langkah-Langkah Praktikum
 
 ### 2.1 Praktikum 1 – Meneruskan Data dari Controller ke Blade View
@@ -1057,6 +1059,8 @@ Digunakan di view:
 
     ![Dok 1](gambar/UI4.png)
 
+---
+
 ## 3. Hasil dan Pembahasan
 Dari seluruh praktikum, diperoleh hasil bahwa:
 
@@ -1070,11 +1074,15 @@ Dari seluruh praktikum, diperoleh hasil bahwa:
 
 - Struktur modular Blade mendukung prinsip DRY (Don't Repeat Yourself) dan meningkatkan keterbacaan serta pemeliharaan kode.
 
+---
+
 ## 4. Kesimpulan
 1. Blade Template Engine merupakan fitur penting Laravel yang menyederhanakan pengelolaan tampilan dan meningkatkan efisiensi pengembangan web.
 2. Melalui penggunaan layouts, components, dan partials, pengembang dapat membangun antarmuka yang konsisten, terstruktur, dan mudah diperluas.
 3. Selain itu, penerapan theme switching menunjukkan kemampuan Blade dalam mendukung interaktivitas dan personalisasi UI.
 Dengan memahami Blade secara mendalam, pengembang dapat membuat aplikasi Laravel yang lebih modular, bersih, dan profesional.
+
+---
 
 ## 5. Referensi
 - Laravel Documentation – Blade Templates: https://laravel.com/docs/12.x/blade

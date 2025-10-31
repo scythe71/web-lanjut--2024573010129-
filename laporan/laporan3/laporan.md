@@ -159,6 +159,8 @@ Controller dapat mengembalikan berbagai jenis respons:
 
         return response('Hello', 200)->header('Content-Type', 'text/plain');
 
+---
+
 # 2. Langkah-Langkah Praktikum
 ### 2.1 Praktikum 1 – Menangani Request dan Response View
 
@@ -461,6 +463,8 @@ Tujuan: Mengelompokkan rute dalam folder Admin menggunakan prefix URL.
 
     ![Dok 1](gambar/9.png)
 
+---
+
 ## 3. Hasil dan Pembahasan
 
 - Controller berhasil digunakan untuk menangani logika    aplikasi dan memisahkan kode dari view.
@@ -471,6 +475,8 @@ Tujuan: Mengelompokkan rute dalam folder Admin menggunakan prefix URL.
 
 - Namespace Admin memungkinkan pemisahan modul antara pengguna biasa dan admin.
 
+---
+
 ## 4. Kesimpulan
 
 1. Controller di Laravel berfungsi sebagai pengatur logika aplikasi dan penghubung antara route, model, dan view.
@@ -480,6 +486,8 @@ Tujuan: Mengelompokkan rute dalam folder Admin menggunakan prefix URL.
 3. Validasi input dan injeksi dependensi di controller membuat kode lebih aman dan efisien.
 
 4. Dengan memahami dasar penggunaan controller, pengembangan aplikasi Laravel menjadi lebih terstruktur dan mudah dipelihara.
+
+---
 
 ## 5. Referensi
 
