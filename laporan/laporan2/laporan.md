@@ -362,6 +362,7 @@ Tuliskan langkah-langkah yang sudah dilakukan, sertakan potongan kode dan screen
 >Screenshot Hasil:
 
 ![Dok 2](gambar/ss2.png)
+
 ---
 
 ## 3. Hasil dan Pembahasan

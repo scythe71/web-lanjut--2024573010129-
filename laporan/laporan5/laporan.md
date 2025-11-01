@@ -8,7 +8,7 @@
 
 ## Abstrak
 
-Laporan praktikum ini membahas penerapan Form Submission dan Data Validation pada framework Laravel. Tujuan praktikum ini adalah memahami alur request–response, proses validasi data input pengguna, dan mekanisme keamanan seperti CSRF Protection. Melalui beberapa praktikum, peserta mempelajari bagaimana Laravel memproses form secara aman, menampilkan pesan error yang informatif, serta mengimplementasikan multi-step form dengan penyimpanan data di session. Hasil percobaan menunjukkan bahwa sistem validasi Laravel mampu meningkatkan keamanan, keandalan, dan pengalaman pengguna dalam pengisian form web.
+Laporan praktikum ini membahas penerapan `Form Submission` dan `Data Validation` pada framework Laravel. Tujuan praktikum ini adalah memahami alur `request–response`, proses validasi data input pengguna, dan mekanisme keamanan seperti `CSRF Protection`. Melalui beberapa praktikum, peserta mempelajari bagaimana Laravel memproses form secara aman, menampilkan pesan error yang informatif, serta mengimplementasikan multi-step form dengan penyimpanan data di session. Hasil percobaan menunjukkan bahwa sistem validasi Laravel mampu meningkatkan keamanan, keandalan, dan pengalaman pengguna dalam pengisian form web.
 
 ---
 
@@ -323,6 +323,8 @@ Fitur old() mempertahankan input pengguna setelah validasi gagal, sehingga form 
 
 ### 2.2 Praktikum 2 – Custom Validation Message
 
+>Langkah-langkah:
+
 1. Pada projek form-app tambahkan route pada routes/web.php.
 
         use App\Http\Controllers\RegisterController;
@@ -435,6 +437,8 @@ Fitur old() mempertahankan input pengguna setelah validasi gagal, sehingga form 
     ![Dok 1](gambar/R4.png)
 
 ### 2.3 Praktikum 3 – Multi-Step Form Submission
+
+>Langkah-langkah:
 
 1. Buat Projek laravel pada terminal vscode
 
