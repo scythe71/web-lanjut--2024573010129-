@@ -161,7 +161,7 @@ Controller dapat mengembalikan berbagai jenis respons:
 
 ---
 
-# 2. Langkah-Langkah Praktikum
+## 2. Langkah-Langkah Praktikum
 ### 2.1 Praktikum 1 – Menangani Request dan Response View
 
 Tujuan: Meneruskan data dari controller ke view dan menangani parameter dari route.
@@ -467,7 +467,7 @@ Tujuan: Mengelompokkan rute dalam folder Admin menggunakan prefix URL.
 
 ## 3. Hasil dan Pembahasan
 
-- Controller berhasil digunakan untuk menangani logika    aplikasi dan memisahkan kode dari view.
+- Controller berhasil digunakan untuk menangani logika aplikasi dan memisahkan kode dari view.
 
 - Data dapat diteruskan dari controller ke view menggunakan fungsi compact() atau array asosiatif.
 
