@@ -492,7 +492,7 @@ Repository berfungsi sebagai lapisan abstraksi untuk mengelola logika akses data
         
         php artisan migrate
 
-6. Buat Migrasi untuk tabel todos
+6. Buat Seeder untuk tabel todos
 
     dengan perintah artisan:
 
