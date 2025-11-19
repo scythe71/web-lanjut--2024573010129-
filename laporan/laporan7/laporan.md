@@ -7,7 +7,13 @@
 ---
 
 ## Abstrak
-Praktikum ini membahas dua fitur penting Laravel yang sering dipakai pada aplikasi nyata: **Eloquent Relationship** dan **Pagination**. Pada bagian Relationship dijelaskan cara mendefinisikan dan menggunakan relasi One-to-One, One-to-Many, dan Many-to-Many antar model sehingga interaksi antar tabel dapat dilakukan secara deklaratif tanpa menulis query SQL mentah. Bagian Pagination memperkenalkan teknik membagi data besar menjadi halaman-halaman kecil menggunakan method `paginate()` agar tampilan lebih ringkas dan performa aplikasi tetap optimal. Praktikum meliputi pembuatan migrasi, model, seeder, controller, dan view — serta pengujian relasi dan paginasi — yang memperkuat pemahaman konsep-konsep tersebut dan menunjukkan penerapannya dalam alur kerja pengembangan Laravel.
+Praktikum ini membahas dua fitur penting Laravel yang sering dipakai pada aplikasi nyata: **Eloquent Relationship** dan **Pagination**. 
+
+- Pada bagian Relationship dijelaskan cara mendefinisikan dan menggunakan relasi One-to-One, One-to-Many, dan Many-to-Many antar model sehingga interaksi antar tabel dapat dilakukan secara deklaratif tanpa menulis query SQL mentah. 
+
+- Bagian Pagination memperkenalkan teknik membagi data besar menjadi halaman-halaman kecil menggunakan method `paginate()` agar tampilan lebih ringkas dan performa aplikasi tetap optimal. 
+
+Praktikum ini meliputi pembuatan migrasi, model, seeder, controller, dan view serta pengujian relasi dan paginasi yang memperkuat pemahaman konsep-konsep tersebut dan menunjukkan penerapannya dalam alur kerja pengembangan Laravel.
 
 ---
 
