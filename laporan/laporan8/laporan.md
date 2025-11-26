@@ -25,7 +25,7 @@ Autentikasi adalah proses untuk memastikan bahwa pengguna benar-benar memiliki i
 Pada Laravel 12, sistem autentikasi berjalan di atas beberapa komponen inti:
 
 1. Guards  
-    Guard menentukan bagaimana pengguna diautentikasi — misalnya menggunakan sesi (session-based) untuk aplikasi web atau token untuk API. Guard default Laravel adalah web, yang menggunakan session dan cookie terenkripsi.
+    Guard menentukan bagaimana pengguna diautentikasi misalnya menggunakan sesi (session-based) untuk aplikasi web atau token untuk API. Guard default Laravel adalah web, yang menggunakan session dan cookie terenkripsi.
 
 2. User Providers  
     Provider menjelaskan bagaimana data pengguna diambil, biasanya melalui model `App\Models\User` yang menggunakan Eloquent ORM.
